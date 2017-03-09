@@ -29,6 +29,11 @@
 # 安装依赖
 npm install
 
+!如果node-sass和sass-loader无法安装，请使用cnpm
+
+cnpm i node-sass  
+cnpm i sass-loader  
+
 # 本地服务与热重载 localhost:8081
 npm run dev
 
