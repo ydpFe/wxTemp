@@ -23,8 +23,11 @@
 
 规范
 
-使用webpack打包 js规范
-整体样式在 src/styles/index.scss中定义，单文件组件样式在组件的style中定义
+使用webpack打包 jsDoc规范
+
+# 展示
+
+demo地址：https://ydpfe.github.io/#/
 
 # 安装依赖
 npm install
