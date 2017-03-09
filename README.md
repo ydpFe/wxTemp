@@ -34,7 +34,7 @@ npm install
 cnpm i node-sass  
 cnpm i sass-loader  
 
-# 本地服务与热重载 localhost:8081
+# 本地服务与热更新
 npm run dev
 
 # 建立生产与压缩资源
