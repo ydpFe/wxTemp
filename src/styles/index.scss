@@ -1,0 +1,74 @@
+body, ul, li, ol, li, dl, dt, dd, form, h1, h2, h3, h4, p, div, hr, tabel, tr, td, select, option, br, span, img, a, label, form, input, textarea, em, i, strong, b {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body { background: #f7f7f7; font-size: 0.14rem; }
+img { border: 0 none; vertical-align: top;}
+a { text-decoration: none; outline: none; hide-focus: expression(this.hideFocus=true);}
+li { list-style: none; vertical-align:top;}
+input{ font-size: 0.14rem; border: 0; background: none; float: left; outline: none; }
+::-webkit-input-placeholder { color: #999; }
+
+.clear{ zoom: 1;}
+.clear:after { content: "\20"; clear: both; display: block;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+/* 元件 */
+.u-submit_btn {
+	width: 94.9%;
+	height: 0.44rem;
+	margin: 0 auto;
+	line-height: 0.44rem;
+	text-align: center;
+	color: #fff;
+	background: #fab483;
+	&.activate {
+		background: #fd7022;
+	}
+}
+
+.u-message {
+	position: fixed;
+	height: 0.3rem;
+	font-size: 0.13rem;
+	line-height: 0.18rem;
+	padding: 0.06rem 0.2rem;
+	background: rgba(0,0,0,.8);
+}
+
+/* 状态 */
+.z-show {
+    display: block !important;
+}
+
+.z-hide {
+    display: none !important;
+}
+
+/* 布局 */
+.g-overflow-hidden {
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.g-border-b {
+	border-bottom: 1px solid #efefef;
+}
+
+.g-c-center {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center; 
+    justify-content: center;
+}
+
+.g-r-center {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
