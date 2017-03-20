@@ -21,7 +21,7 @@
 └── webpack.config.js   webpack配置文件
 ```
 
-规范
+# 规范
 
 使用webpack打包 jsDoc规范
 
