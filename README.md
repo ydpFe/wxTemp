@@ -23,8 +23,8 @@
 
 # 规范
 
-使用webpack打包 jsDoc规范
-
+使用webpack打包 jsDoc 规范
+ 
 # 安装依赖
 npm install
 
