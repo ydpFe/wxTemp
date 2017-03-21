@@ -21,10 +21,9 @@
 └── webpack.config.js   webpack配置文件
 ```
 
-规范
+# 规范
 
-使用webpack打包 js规范
-整体样式在 src/styles/index.scss中定义，单文件组件样式在组件的style中定义
+使用webpack打包 jsDoc规范
 
 # 安装依赖
 npm install
